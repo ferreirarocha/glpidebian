@@ -10,7 +10,7 @@ echo -e "deb  http://deb.debian.org/debian stretch main\ndeb-src http://deb.debi
 ## Instalando Dependências
 
 apt update ;
-apt-get install curl unzip snmp apache2 php7.0 libapache2-mod-php7.0 php7.0-gd php7.0-ldap php7.0-curl php7.0-mbstring  -y ;
+apt-get install curl php-curl unzip snmp apache2 php7.0 libapache2-mod-php7.0 php7.0-gd php7.0-ldap php7.0-curl php7.0-mbstring  -y ;
 apt-get install sudo php7.0-bcmath php7.0-imap php-soap  php7.0-cli php7.0-common php7.0-snmp php7.0-xmlrpc  -y ;
 apt-get install libmariadbd18 libmariadbd-dev mariadb-server php-dev php-pear php7.0-mysql php7.0-xml php-apcu-bc -y
 
